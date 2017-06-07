@@ -1,7 +1,7 @@
 {
-  "name": "fine-exhibition-screenshots",
+  "name": "fine-screenshots",
   "version": "0.0.1",
-  "description": "Screenshot Service for the Fine Exhibition.",
+  "description": "Screenshot service of the Fine application.",
   "private": true,
   "main": "app.js",
   "scripts": {
@@ -14,12 +14,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://wiederkehr@github.com/wiederkehr/fine-exhibition-screenshots.git"
+    "url": "git+https://wiederkehr@github.com/wiederkehr/fine-screenshots.git"
   },
   "author": "Benjamin Wiederkehr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wiederkehr/fine-exhibition-screenshots/issues"
+    "url": "https://github.com/wiederkehr/fine-screenshots/issues"
   },
-  "homepage": "https://github.com/wiederkehr/fine-exhibition-screenshots#readme"
+  "homepage": "https://github.com/wiederkehr/fine-screenshots#readme"
 }
