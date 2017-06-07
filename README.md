@@ -1,1 +1,1 @@
-# fine-exhibition-screenshots
+# fine-screenshots
