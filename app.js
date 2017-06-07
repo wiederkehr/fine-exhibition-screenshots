@@ -12,7 +12,8 @@ app.get('/', function (req, res) {
   var nightmare = Nightmare({height: 600, width: 1200});
 
   nightmare
-    .goto('http://fine-exhibition.annawiederkehr.com/detail')
+    .goto('http://fine-exhibition.annawiederkehr.com/detail/' + detailId)
+    .wait(5000)
     .screenshot(imagePath)
     .end(() => {
 
@@ -29,6 +30,6 @@ app.get('/', function (req, res) {
 
 })
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
+app.listen(3001, function () {
+  console.log('Example app listening on port 3001!')
 })
